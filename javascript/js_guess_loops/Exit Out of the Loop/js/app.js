@@ -8,6 +8,7 @@ function getRandomNumber(upper) {
 
 for ( let i = 1; i <= 10; i++ ) {
   let guess = prompt('I am thinking of a number between 1 and 10. What is it?');
+  // Terminates loop if user guesses number 
   if ( parseInt(guess) === randomNumber ) {
     message = `It took you ${i} tries to guess the number ${randomNumber}!`;
     break;

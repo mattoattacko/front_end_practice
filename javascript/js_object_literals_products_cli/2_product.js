@@ -1,12 +1,3 @@
-/* INSTRUCTIONS
-To run this file, click in the Console below and type: node product.js 
-If the console isn't visible, click the View menu above and choose Show Console.
-
-You can clear the console by typing `clear` and pressing enter.
-
-If your program is stuck in an infinite loop, you can break out of the program by typing ctrl + C.
-*/
-
 // 1. Create an object named product, with the following 3 properties. 
 // Make up the values for the properties, just make sure the inventory is a whole number (it's the number of that product currently in stock) and unit_price is a floating point number like 45.99
 // -- name
@@ -53,7 +44,7 @@ function processSale(prod, quantity) {
 */
 console.log("Total sale: $" + processSale(product, 3));
 
-// 6. Run your code by typing node 2_product.js in the console below
+// 6. Run your code by typing node 2_product.js in the console
 
 
 
